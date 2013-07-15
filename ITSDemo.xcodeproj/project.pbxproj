@@ -19,6 +19,10 @@
 		7047D5DA179492EA00354973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7047D5C2179492EA00354973 /* UIKit.framework */; };
 		7047D5E2179492EA00354973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7047D5E0179492EA00354973 /* InfoPlist.strings */; };
 		7047D5E4179492EA00354973 /* ITSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7047D5E3179492EA00354973 /* ITSDemoTests.m */; };
+		7047D5EE179495DD00354973 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7047D5ED179495DD00354973 /* MainStoryboard.storyboard */; };
+		7047D5EF179495DD00354973 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7047D5ED179495DD00354973 /* MainStoryboard.storyboard */; };
+		7047D5F31794961E00354973 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7047D5F21794961E00354973 /* RootViewController.m */; };
+		7047D5F41794961E00354973 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7047D5F21794961E00354973 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,9 @@
 		7047D5DF179492EA00354973 /* ITSDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ITSDemoTests-Info.plist"; sourceTree = "<group>"; };
 		7047D5E1179492EA00354973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7047D5E3179492EA00354973 /* ITSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITSDemoTests.m; sourceTree = "<group>"; };
+		7047D5ED179495DD00354973 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7047D5F11794961E00354973 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7047D5F21794961E00354973 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +114,10 @@
 		7047D5C4179492EA00354973 /* ITSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7047D5F01794960300354973 /* View Controllers */,
 				7047D5CD179492EA00354973 /* AppDelegate.h */,
 				7047D5CE179492EA00354973 /* AppDelegate.m */,
+				7047D5ED179495DD00354973 /* MainStoryboard.storyboard */,
 				7047D5D0179492EA00354973 /* Images.xcassets */,
 				7047D5C5179492EA00354973 /* Supporting Files */,
 			);
@@ -142,6 +151,15 @@
 				7047D5E0179492EA00354973 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7047D5F01794960300354973 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7047D5F11794961E00354973 /* RootViewController.h */,
+				7047D5F21794961E00354973 /* RootViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7047D5EE179495DD00354973 /* MainStoryboard.storyboard in Resources */,
 				7047D5C9179492EA00354973 /* InfoPlist.strings in Resources */,
 				7047D5D1179492EA00354973 /* Images.xcassets in Resources */,
 			);
@@ -228,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7047D5EF179495DD00354973 /* MainStoryboard.storyboard in Resources */,
 				7047D5E2179492EA00354973 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +261,7 @@
 			files = (
 				7047D5CF179492EA00354973 /* AppDelegate.m in Sources */,
 				7047D5CB179492EA00354973 /* main.m in Sources */,
+				7047D5F31794961E00354973 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7047D5F41794961E00354973 /* RootViewController.m in Sources */,
 				7047D5E4179492EA00354973 /* ITSDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
