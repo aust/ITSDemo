@@ -15,7 +15,7 @@
 @implementation RootViewController
 
 - (IBAction)displayAlertMessage:(id)sender {
-    [[[UIAlertView alloc] initWithTitle:@""
+    [[[UIAlertView alloc] initWithTitle:@"Welcome"
                                 message:@"Welcome to ITSDemo!"
                                delegate:nil
                       cancelButtonTitle:@"OK"
