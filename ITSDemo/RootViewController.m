@@ -16,7 +16,7 @@
 
 - (IBAction)displayAlertMessage:(id)sender {
     [[[UIAlertView alloc] initWithTitle:@"Welcome"
-                                message:@"Welcome to ITSDemo!"
+                                message:@"This is an alert demo."
                                delegate:nil
                       cancelButtonTitle:@"OK"
                       otherButtonTitles:nil] show];
