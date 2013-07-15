@@ -10,4 +10,6 @@
 
 @interface RootViewController : UIViewController
 
+- (IBAction)displayAlertMessage:(id)sender;
+
 @end
